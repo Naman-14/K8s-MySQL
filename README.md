@@ -1,7 +1,5 @@
 # K8s-MySQL
-Deploying MySQL
-
-Accessing our MySQL Instance and showing the created databases in it.
+Deploying MySQL, Accessing our MySQL Instance and showing the created databases in it.
 
 Step 1: Create Kubernetes Secret:
 
