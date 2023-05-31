@@ -4,13 +4,19 @@ Deploying MySQL
 Accessing our MySQL Instance and showing the created databases in it.
 
 Step 1: Create Kubernetes Secret:
+
 kubectl apply -f mysql-secret.yaml
 
+
 Step 2: Create Persistent Volume and Volume Claim:
+
 kubectl apply -f mysql-storage.yaml
 
+
 Step 3: Create MySQL Deployment:
+
 kubectl apply -f mysql-deployment.yaml
+
 
 Step 4: Access Your MySQL Instance:
 
